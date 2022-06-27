@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        String[] arr = {"BANU", "ayten","AYşE","ÇİSEM", "DENİZ", "EmiN","ÖMER", "gülbEN"};
+        String[] arr = {"BANU", "ayten","AYşE","ÇİSEM", "DENİZ", "EmiN", "ÖMER","FURKAN","gülbEN","OYtun"};
         String str= String.join(",",arr);
         String array_uppercase[]=str.toUpperCase().split(",");
         String order = "BAÇCDEÖFGHĞIJKLMNOPQRTSŞUÜVWXYZ";
-        System.out.println(siraKontrol(array_uppercase,order));
+        System.out.println("Sorting status : " + siraKontrol(array_uppercase,order));
 
     }
 
